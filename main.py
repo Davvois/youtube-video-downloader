@@ -21,9 +21,9 @@ title.grid(row=0, column=0)
 # Funzionamento principale dell'input e download
 videoLink = tk.StringVar()
 videoEntry = tk.Entry(window, textvariable=videoLink, font=('calibre', 20, 'normal'))
-submitVideoButton = tk.Button(window, text='Submit', command=submitVideoLink, font=('calibre', 20, 'normal'), width=18)
+downloadVideoButton = tk.Button(window, text='Download', command=submitVideoLink, font=('calibre', 20, 'normal'), width=18)
 videoEntry.grid(row=1, column=0)
-submitVideoButton.grid(row=2, column=0)
+downloadVideoButton.grid(row=2, column=0)
 
 if __name__ == "__main__":
     window.mainloop()
